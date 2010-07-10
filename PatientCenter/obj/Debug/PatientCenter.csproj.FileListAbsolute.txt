@@ -1,7 +1,0 @@
-C:\Source\PatientCenter\PatientCenter\bin\PatientCenter.dll
-C:\Source\PatientCenter\PatientCenter\bin\PatientCenter.pdb
-C:\Source\PatientCenter\PatientCenter\bin\Norm.dll
-C:\Source\PatientCenter\PatientCenter\bin\nunit.framework.dll
-C:\Source\PatientCenter\PatientCenter\obj\Debug\ResolveAssemblyReference.cache
-C:\Source\PatientCenter\PatientCenter\obj\Debug\PatientCenter.dll
-C:\Source\PatientCenter\PatientCenter\obj\Debug\PatientCenter.pdb
