@@ -1,0 +1,6 @@
+C:\Source\PatientCenter\PatientCenter.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\PatientCenter\PatientCenter.Tests\bin\Debug\PatientCenter.Tests.dll.config
+C:\Source\PatientCenter\PatientCenter.Tests\bin\Debug\PatientCenter.Tests.dll
+C:\Source\PatientCenter\PatientCenter.Tests\bin\Debug\PatientCenter.Tests.pdb
+C:\Source\PatientCenter\PatientCenter.Tests\obj\Debug\PatientCenter.Tests.dll
+C:\Source\PatientCenter\PatientCenter.Tests\obj\Debug\PatientCenter.Tests.pdb
