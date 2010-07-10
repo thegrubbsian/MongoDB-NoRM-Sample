@@ -1,0 +1,6 @@
+_ReSharper.PatientCenter
+*.ReSharper.user
+PatientCenter.suo
+PatientCenter/bin
+PatientCenter/obj
+PatientCenter/PatientCenter.csproj.user

@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientCenter", "PatientCenter\PatientCenter.csproj", "{10A6E2A3-F320-4D26-8BB7-E2BBF78CE6C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientCenter.Tests", "PatientCenter.Tests\PatientCenter.Tests.csproj", "{3D53CA60-ED40-4914-8D9E-7B8550746D13}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{4B80A927-9627-4DC5-8B81-0A142F277F92}"
 	ProjectSection(SolutionItems) = preProject
 		Lib\Norm.dll = Lib\Norm.dll
@@ -21,10 +19,6 @@ Global
 		{10A6E2A3-F320-4D26-8BB7-E2BBF78CE6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10A6E2A3-F320-4D26-8BB7-E2BBF78CE6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10A6E2A3-F320-4D26-8BB7-E2BBF78CE6C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D53CA60-ED40-4914-8D9E-7B8550746D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D53CA60-ED40-4914-8D9E-7B8550746D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D53CA60-ED40-4914-8D9E-7B8550746D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D53CA60-ED40-4914-8D9E-7B8550746D13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
