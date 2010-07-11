@@ -45,7 +45,6 @@
             <% Html.RenderPartial("Vitals", Model.Vitals); %>
         </fieldset>
         
-
         <fieldset>
             <legend>Prescriptions</legend>
             <% Html.RenderPartial("Prescriptions", Model.Prescriptions); %>

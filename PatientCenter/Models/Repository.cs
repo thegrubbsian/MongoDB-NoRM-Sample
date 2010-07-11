@@ -7,6 +7,10 @@ namespace PatientCenter.Models {
 
     public class Repository<T> {
 
+        //public Repository() {
+        //    MongoConfiguration.Initialize(x => x.AddMap<DatabaseAliasMappings>());
+        //}
+
         public IEnumerable<T> All() {
             return Read(db => db.GetCollection<T>().Find());
         }
