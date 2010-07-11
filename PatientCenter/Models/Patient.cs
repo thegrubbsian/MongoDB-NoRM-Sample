@@ -32,6 +32,11 @@ namespace PatientCenter.Models {
                     _vitals.OrderByDescending(x => x.DateTaken).First();
             }
         }
+
+        [MongoIgnore]
+        public int Age {
+            get { return DateTime.Now.Year - DOB.Year; }
+        }
     }
 
     public class Vitals {

@@ -51,6 +51,10 @@ table td,
 table th {
     padding: 5px 10px 5px 5px;
 }
+
+table th {
+    border-bottom: 1px solid #c0c0c0;   
+}
     
 h1 {
     font-size: 2em;
@@ -143,6 +147,7 @@ table.listable th {
     padding: 5px;
     font-size: 1em;
     color: #333;
+    border: none;
 }
 
 table.listable div.item-add {

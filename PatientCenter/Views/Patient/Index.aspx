@@ -16,6 +16,7 @@
                 <th>Last Name</th>
                 <th>First Name</th>
                 <th>DOB</th>
+                <th>Age</th>
                 <th>Height</th>
                 <th>Weight</th>
                 <th>Temperature</th>
@@ -30,6 +31,7 @@
                 <td><%: patient.LastName %></td>
                 <td><%: patient.FirstName %></td>
                 <td><%: patient.DOB.ToShortDateString() %></td>
+                <td><%: patient.Age %></td>
                 <td><%: patient.RecentVitals.Height %></td>
                 <td><%: patient.RecentVitals.Weight %></td>
                 <td><%: patient.RecentVitals.Temperature %></td>

@@ -12,7 +12,7 @@
     <tbody>
         <% var i = 0; foreach (var vitals in Model) { %>
         <tr>
-            <td><%= Html.TextBox("patient.Vitals[" + i + "].DateTaken", vitals.DateTaken) %></td>
+            <td><%= Html.TextBox("patient.Vitals[" + i + "].DateTaken", vitals.DateTaken.ToShortDateString()) %></td>
             <td><%= Html.TextBox("patient.Vitals[" + i + "].Height", vitals.Height)%></td>
             <td><%= Html.TextBox("patient.Vitals[" + i + "].Weight", vitals.Weight)%></td>
             <td><%= Html.TextBox("patient.Vitals[" + i + "].Temperature", vitals.Temperature)%></td>

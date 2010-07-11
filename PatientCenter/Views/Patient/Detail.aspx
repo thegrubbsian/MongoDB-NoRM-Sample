@@ -37,7 +37,7 @@
 
         <div class="field">
             <label>DOB</label>
-            <%= Html.TextBox("patient.DOB", Model.DOB) %>
+            <%= Html.TextBox("patient.DOB", Model.DOB.ToShortDateString()) %>
         </div>
 
         <fieldset>
