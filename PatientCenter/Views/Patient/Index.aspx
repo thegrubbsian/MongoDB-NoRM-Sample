@@ -1,9 +1,14 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" 
     Inherits="System.Web.Mvc.ViewPage<IEnumerable<PatientCenter.Models.Patient>>" %>
 
-<asp:Content ContentPlaceHolderID="Body" runat="server">
-
+<asp:Content ContentPlaceHolderID="Header" runat="server">
     <h2>All Patients</h2>
+    <div id="actions">
+        <%= Html.ActionLink("New Patient", "Create", "Patient") %>
+    </div>
+</asp:Content>
+ 
+<asp:Content ContentPlaceHolderID="Body" runat="server">
 
     <table>
         <thead>
@@ -35,9 +40,5 @@
             <% } %>
         </tbody>
     </table>
-
-    <br /><br />
-
-    <%= Html.ActionLink("New Patient", "Create", "Patient") %>
 
 </asp:Content>

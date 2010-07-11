@@ -80,12 +80,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\icons.png" />
     <Content Include="Content\jquery-1.4.2.js" />
+    <Content Include="Content\jquery.listable.js" />
+    <Content Include="Content\layout.css" />
     <Content Include="Content\reset.css" />
     <Content Include="Content\site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Views\Patient\Prescriptions.ascx" />
     <Content Include="Views\Patient\Detail.aspx" />
     <Content Include="Views\Patient\Index.aspx" />
+    <Content Include="Views\Patient\Vitals.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

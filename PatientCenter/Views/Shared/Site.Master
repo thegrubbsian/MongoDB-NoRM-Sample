@@ -7,11 +7,17 @@
         <title>Patient Center</title>
         <link rel="Stylesheet" type="text/css" href="<%= Url.Content("~/Content/reset.css") %>" />
         <link rel="Stylesheet" type="text/css" href="<%= Url.Content("~/Content/site.css") %>" />
+        <link rel="Stylesheet" type="text/css" href="<%= Url.Content("~/Content/layout.css") %>" />
     </head>
     <body>
+        <div id="header">
+            <asp:ContentPlaceHolder ID="Header" runat="server" />
+        </div>
         <div id="container">
             <asp:ContentPlaceHolder ID="Body" runat="server" />
         </div>
         <script type="text/javascript" src="<%= Url.Content("~/Content/jquery-1.4.2.js") %>"></script>
+        <script type="text/javascript" src="<%= Url.Content("~/Content/jquery.listable.js") %>"></script>
+        <asp:ContentPlaceHolder ID="Scripts" runat="server" />
     </body>
 </html>

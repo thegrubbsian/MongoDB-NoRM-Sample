@@ -6,9 +6,30 @@
 	padding: 0;
 }
 
+div.clear {
+    float: none;
+    clear: both;   
+}
+
 #container {
     margin: 0.5em;   
 }
+
+#header {
+    padding: 0.5em 1em;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #e0e0e0;   
+    overflow: hidden;
+}
+
+    #header h2 {
+        float: left;   
+    }
+
+    #header #actions {
+        float: right;   
+        margin-top: 5px;
+    }
 
 fieldset {
     margin: 10px 0px;
@@ -37,5 +58,117 @@ h1 {
 
 h2 {
     font-size: 1.7em;
-    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.4em;   
+}
+
+
+
+/* Forms */
+
+input[type=hidden] {
+    display: none;
+    height: 0px;
+    width: 0px;   
+}
+
+input[type="text"], input[type="password"], textarea, select {
+	border: 1px solid #CCC;
+	font-family: "Tahoma", "Arial", "Verdana", sans-serif;
+	font-size: 1em;
+	padding: 3px 5px 4px 5px;
+	margin: 0;
+}
+
+select {
+    padding: 3px;   
+}
+
+input:focus,
+textarea:focus {
+	border: 1px solid #99CC99;
+	background-color: #DDFFDD;
+}
+
+label {
+    font-size: 1em;
+    margin-bottom: 3px; 
+    display: block;
+    color: #333;
+}
+
+label span {
+    font-style: italic;
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #888;   
+}
+
+div.field label.left {
+    margin-top: 5px;
+    margin-right: 5px; 
+}
+
+div.field {
+    margin: 0px 0px 15px 0px;   
+}
+
+    div.field.check {
+        height: 24px;   
+    }
+
+        div.field.check input {
+            float: left;   
+            margin: 2px 8px 0px 0px;
+        }
+        
+        div.field.check label {
+            float: left;
+            cursor: pointer;
+        }
+
+tr.field.check label {
+    cursor: pointer;
+}
+
+
+/* Listable Tables */
+
+table.listable td {
+    padding: 0px 5px 5px 0px;
+}
+
+table.listable th {
+    padding: 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+table.listable div.item-add {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    background: transparent url(icons.png) -0px -192px no-repeat;
+    opacity: 0.4;
+}
+
+table.listable div.item-remove {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    background: transparent url(icons.png) -32px -192px no-repeat;
+    opacity: 0.4;
+}
+
+table.listable div.item-sort {
+    cursor: move;
+    width: 16px;
+    height: 16px;
+    background: transparent url(icons.png) 0px -80px no-repeat;
+}
+
+table.listable div.item-add:hover,
+table.listable div.item-remove:hover {
+    opacity: 0.8;
 }

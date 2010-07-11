@@ -1,0 +1,70 @@
+/* Cells are fluid blocks that float left */
+.cell-1, .cell-2, .cell-3, .cell-4, .cell-5,
+.cell-6, .cell-7, .cell-8, .cell-9, .cell-10 {
+	display: inline;
+	float: left;
+}
+
+.cell-1.right, .cell-2.right, .cell-3.right, .cell-4.right, .cell-5.right,
+.cell-6.right, .cell-7.right, .cell-8.right, .cell-9.right, .cell-10.right {
+	float: right;
+	text-align: right;
+}
+
+.cell-inner { padding: 10px; }
+
+.cell-1 { width: 10%; }
+.cell-2 { width: 20%; }
+.cell-3 { width: 30%; }
+.cell-4 { width: 40%; }
+.cell-5 { width: 50%; }
+.cell-6 { width: 60%; }
+.cell-7 { width: 70%; }
+.cell-8 { width: 80%; }
+.cell-9 { width: 90%; }
+.cell-10 { width: 100%; }
+
+.cell-1.last { padding-right: 90%; }
+.cell-2.last { padding-right: 80%; }
+.cell-3.last { padding-right: 70%; }
+.cell-4.last { padding-right: 60%; }
+.cell-5.last { padding-right: 50%; }
+.cell-6.last { padding-right: 40%; }
+.cell-7.last { padding-right: 30%; }
+.cell-8.last { padding-right: 20%; }
+.cell-9.last { padding-right: 10%; }
+
+
+/* Grids are fixed blocks that float left */
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5,
+.grid-6, .grid-7, .grid-8, .grid-9, .grid-10,
+.grid-11, .grid-12, .grid-13, .grid-14, .grid-15 {
+	display: inline;
+	float: left;
+}
+
+.grid-1.right, .grid-2.right, .grid-3.right, .grid-4.right, .grid-5.right,
+.grid-6.right, .grid-7.right, .grid-8.right, .grid-9.right, .grid-10.right,
+.grid-11.right, .grid-12.right, .grid-13.right, .grid-14.right, .grid-15.right {
+	float: right;
+	text-align: right;
+}
+
+.grid-inner { padding: 10px; }
+
+.grid-1 { width: 50px; }
+.grid-2 { width: 100px; }
+.grid-3 { width: 150px; }
+.grid-4 { width: 200px; }
+.grid-5 { width: 250px; }
+.grid-6 { width: 300px; }
+.grid-7 { width: 350px; }
+.grid-8 { width: 400px; }
+.grid-9 { width: 450px; }
+.grid-10 { width: 500px; }
+.grid-11 { width: 550px; }
+.grid-12 { width: 600px; }
+.grid-13 { width: 650px; }
+.grid-14 { width: 700px; }
+.grid-15 { width: 750px; }
+.grid-15 { width: 800px; }

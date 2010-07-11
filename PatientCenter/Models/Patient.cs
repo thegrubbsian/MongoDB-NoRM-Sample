@@ -36,9 +36,9 @@ namespace PatientCenter.Models {
 
     public class Vitals {
         public DateTime DateTaken { get; set; }
-        public int Height { get; set; }
+        public string Height { get; set; }
         public int Weight { get; set; }
-        public int Temperature { get; set; }
+        public string Temperature { get; set; }
     }
 
     public class Prescription {
