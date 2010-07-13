@@ -90,7 +90,7 @@ select {
     padding: 3px;   
 }
 
-input:focus,
+input[type="text"]:focus,
 textarea:focus {
 	border: 1px solid #99CC99;
 	background-color: #DDFFDD;

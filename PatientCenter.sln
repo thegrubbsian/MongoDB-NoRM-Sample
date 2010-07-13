@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{4B80A927-962
 	ProjectSection(SolutionItems) = preProject
 		Lib\Norm.dll = Lib\Norm.dll
 		Lib\nunit.framework.dll = Lib\nunit.framework.dll
+		Lib\test_data.js = Lib\test_data.js
 	EndProjectSection
 EndProject
 Global

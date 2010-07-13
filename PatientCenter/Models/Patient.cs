@@ -25,6 +25,12 @@ namespace PatientCenter.Models {
             set { _prescriptions = value; }
         }
 
+        private List<string> _conditions = new List<string>();
+        public List<string> Conditions {
+            get { return _conditions; }
+            set { _conditions = value; }
+        }
+
         [MongoIgnore]
         public Vitals RecentVitals {
             get {
@@ -37,19 +43,5 @@ namespace PatientCenter.Models {
         public int Age {
             get { return DateTime.Now.Year - DOB.Year; }
         }
-    }
-
-    public class Vitals {
-        public DateTime DateTaken { get; set; }
-        public string Height { get; set; }
-        public int Weight { get; set; }
-        public string Temperature { get; set; }
-    }
-
-    public class Prescription {
-        public DateTime DateIssued { get; set; }
-        public string Medication { get; set; }
-        public int Count { get; set; }
-        public int Refills { get; set; }
     }
 }

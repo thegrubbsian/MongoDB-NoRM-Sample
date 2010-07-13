@@ -24,8 +24,13 @@ namespace PatientCenter.Models {
             For<Prescription>(x => {
                 x.ForProperty(p => p.DateIssued).UseAlias("dt");
                 x.ForProperty(p => p.Count).UseAlias("ct");
-                x.ForProperty(p => p.Medication).UseAlias("med");
+                x.ForProperty(p => p.MedicationID).UseAlias("med");
                 x.ForProperty(p => p.Refills).UseAlias("rfl");
+            });
+
+            For<Medication>(x => {
+                x.ForProperty(p => p.Name).UseAlias("nm");
+                x.ForProperty(p => p.Dosage).UseAlias("ds");
             });
         }
     }

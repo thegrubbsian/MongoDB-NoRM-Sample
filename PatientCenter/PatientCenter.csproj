@@ -75,9 +75,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\ExtensionMethods.cs" />
     <Compile Include="Models\DatabaseAliasMappings.cs" />
+    <Compile Include="Models\Medication.cs" />
     <Compile Include="Models\Patient.cs" />
+    <Compile Include="Models\Prescription.cs" />
     <Compile Include="Models\Repository.cs" />
+    <Compile Include="Models\Vitals.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -88,6 +92,7 @@
     <Content Include="Content\reset.css" />
     <Content Include="Content\site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Views\Patient\PatientList.ascx" />
     <Content Include="Views\Patient\Prescriptions.ascx" />
     <Content Include="Views\Patient\Detail.aspx" />
     <Content Include="Views\Patient\Index.aspx" />
